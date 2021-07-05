@@ -14,4 +14,4 @@
 - Tech 3 - version 3.0
 
 ## Projects
-* [Trig/simple calculator](/Simple operations and Trig Calculator/main.go)
+* [Trig/simple calculator](./Calculator)
