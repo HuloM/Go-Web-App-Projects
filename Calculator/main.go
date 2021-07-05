@@ -50,7 +50,7 @@ func calcTrig(this js.Value, i []js.Value) interface{} {
 		answer = math.Cos(int1)
 	case value2 == "tan":
 		answer = math.Tan(int1)
-		case value2 == "asin":
+	case value2 == "asin":
 		answer = math.Asin(int1)
 	case value2 == "acos":
 		answer = math.Acos(int1)
