@@ -28,6 +28,7 @@ func calcSimple(this js.Value, i []js.Value) interface{} {
 		case value2 == "%":
 			answer = math.Mod(int1, int2)
 		default:
+			;
 	}
 
 	js.Global().Get("document").Call("getElementById", i[3].String()).Set("value", answer)
@@ -44,20 +45,20 @@ func calcTrig(this js.Value, i []js.Value) interface{} {
 
 	var answer float64
 	switch {
-	case value2 == "sin":
-		answer = math.Sin(int1)
-	case value2 == "cos":
-		answer = math.Cos(int1)
-	case value2 == "tan":
-		answer = math.Tan(int1)
-	case value2 == "asin":
-		answer = math.Asin(int1)
-	case value2 == "acos":
-		answer = math.Acos(int1)
-	case value2 == "atan":
-		answer = math.Atan(int1)
-	default:
-		;
+		case value2 == "sin":
+			answer = math.Sin(int1)
+		case value2 == "cos":
+			answer = math.Cos(int1)
+		case value2 == "tan":
+			answer = math.Tan(int1)
+		case value2 == "asin":
+			answer = math.Asin(int1)
+		case value2 == "acos":
+			answer = math.Acos(int1)
+		case value2 == "atan":
+			answer = math.Atan(int1)
+		default:
+			;
 	}
 
 	if  strings.Contains(strings.ToLower(value3), "deg"){
