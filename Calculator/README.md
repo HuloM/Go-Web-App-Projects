@@ -2,6 +2,7 @@
 > Download files into one folder
 > run following command in either a bash or zsh shell
 ```
+$ cd (path of directory of project files)/
 $ GOARCH=wasm GOOS=js go build -o lib.wasm main.go
 $ go run server.go
 ```
