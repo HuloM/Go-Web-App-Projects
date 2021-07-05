@@ -5,17 +5,13 @@
 * [Projects](#projects)
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- this is just a repository I plan to share my progress on learning go
+- I hope to both learn go and web app design while also being able to share and possibly help people find solutions
 
 ## Technologies Used
-- Tech 1 - version 1.0
+- golang - version 
 - Tech 2 - version 2.0
 - Tech 3 - version 3.0
 
 ## Projects
-* [Trig/simple calculator](./Simple operations and Trig Calculator/main.go)
+* [Trig/simple calculator](/Simple operations and Trig Calculator/main.go)
