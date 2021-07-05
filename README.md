@@ -9,9 +9,8 @@
 - I hope to both learn go and web app design while also being able to share and possibly help people find solutions
 
 ## Technologies Used
-- golang - version 
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- golang - version 1.16.5
+- javascript - version ES6
 
 ## Projects
 * [Trig/simple calculator](./Calculator)
